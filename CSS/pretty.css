@@ -1,0 +1,318 @@
+body{
+    margin: 0;
+    font-family: "Source Sans Pro", sans-serif;
+    text-align: left;
+}
+
+
+.entrada {
+    height: 600px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../IMAGE/header.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    
+    padding-left: 104px;
+    color: white;
+}
+.entrada h4 {
+    padding-top: 180px;
+    font-size: 40px;
+    margin: 0;
+    font-weight: 1;
+}
+.entrada h1{
+    margin: 0;
+    color: aquamarine;
+    font-size: 105px;
+    line-height: 5.3rem;
+
+}
+.entrada h6{
+    font-size: 20px;
+    letter-spacing: 4px;
+    margin-top: 1rem;
+    font-weight: 1;
+}
+
+.navegador{
+    border-bottom: 1px solid white;
+    box-shadow: 0px 0px 8px rgb(197, 189, 189);
+    height: 70px;
+    
+}
+
+nav ul, .detalles-data {
+    padding: 0;
+    margin: 0;
+    padding-top: 5px;
+    list-style: none;
+    overflow: hidden; 
+}
+
+nav ul li{
+    text-align: center;
+    margin: 0;
+    width: 33.33%;
+    float: left;
+}
+
+.menuP{
+    padding: 0;
+}
+
+
+.marco {
+    position: relative;
+    bottom: 5px;
+    margin: auto;
+    border: 10px solid whitesmoke;    
+    width: 160px;
+    height: 160px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+.marco img {
+    width: 100%;
+    height: auto;
+}
+
+.apegado-H{
+    line-height: 1px;
+    font-weight: 1;
+}
+
+
+.apegado{
+    margin-bottom: 60px;
+    margin-right: 90%;
+    opacity: 0.4;
+}
+
+
+.bloque{
+    margin-top: 120px;
+    height: 450px;
+    border-bottom: 1px solid rgb(213, 213, 213);
+}
+
+.columnas{
+    position: relative;
+    width: 33.28%;
+    margin: 0;
+    position: relative;
+    float: left;
+    padding-top: 5px;
+    overflow: hidden;
+    height: 400px;
+}
+
+.bloque-centrado-0{
+    height: 100%;
+    width: 75%;
+    margin: auto;
+}
+
+
+.texto{
+    color: rgb(145, 145, 145);
+    font-size: 82%;
+    line-height: 19px;
+    letter-spacing: 0.009rem;
+}
+
+.texto-2{
+    color: rgb(145, 145, 145);
+    font-size: 82%;
+    line-height: 30px;
+    letter-spacing: 0.009rem;
+}
+
+.titulo{
+    font-size: 180%;
+    margin: 0;  
+}
+
+.subtitulo{
+    font-size: 125%;
+}
+
+
+
+.negrita{
+    color: black;
+}
+
+.lateral{
+    float: left;
+    margin: 0px 10px 10px 0px;
+    opacity: 0.4;
+    width: auto;
+}
+
+.columnas .bloque-centrado-0 .linea-centrada{
+    margin-left: 8%;
+    width: 80%;
+    margin-bottom: 25px;
+}
+
+
+
+.titulo-medio{
+    font-size: 30px;
+    margin-left: 10px;
+    margin-top: 4rem ;
+}
+
+
+/* MY RESUMEN */
+
+
+#resume {
+    height: 800px;
+    width: 90%;
+    margin: auto;
+}
+
+.columnas-resumen{
+    width: 33.33%;
+    margin: 0;
+    position: relative;
+    float: left;
+    padding-top: 5px;
+    overflow: hidden;
+    height: 100%;
+}
+
+.bloque-centrado-one{
+    height: 70%;
+    width: 85%;
+    margin: auto;
+    border: 1px solid rgb(213, 213, 213);
+    padding: 0px 20px;
+}
+
+.bloque-centrado-two{
+    height: 50%;
+    width: 85%;
+    margin: auto;
+    border: 1px solid rgb(213, 213, 213);
+    padding: 0px 20px;
+}
+
+.bloque-centrado-three{
+    border: 1px solid rgb(213, 213, 213);
+    height: 42%;
+    width: 85%;
+    margin: auto;
+    margin-bottom: 7%;
+    padding: 0px 20px;
+}
+
+.bloque-centrado-four{
+    border: 1px solid rgb(213, 213, 213);
+    height: 27%;
+    width: 85%;
+    margin: auto;
+    margin-bottom: 7%;
+    padding: 0px 20px;
+}
+
+.resume-apegado{
+    margin: 0px 90% 0px 0px;
+    opacity: 0.4;
+}
+
+.bloque-centrado-four li, .bloque-centrado-three li{
+    margin-left: -39px;
+}
+
+
+
+/* barra de progreso */
+.progress {
+    height: 5px;
+    width: 100%;
+    border-radius: 5px;
+    background-color: #e6f3fa;
+    margin-bottom: 15px;
+}
+ 
+.progress-bar {
+    height: 100%;
+    background: rgb(233, 114, 114);
+    display: flex;
+    align-items: center;
+    transition: width 0.25s;
+    border-radius: 5px;
+}
+ 
+.progress-bar-text {
+    margin-left: 15px;
+    font-weight: bold;
+    color: #cce7f5;
+}
+
+
+
+
+
+
+
+
+
+/* PARTE FINAL */
+
+.detalles{
+    background-color: #3e454b;
+    height: 260px;
+    width: 100%;
+}
+
+.detalles-data{
+    text-align: left;
+    width: 25%;
+    float: left;
+    color: white;
+}
+.detalles-data img{
+    filter: invert(100%);
+    margin: 0px 20px 20px 15%;
+    padding: 0px 20px 25px 0px;
+    border-right: 1px solid black;
+}
+
+.lateral-final{
+    float: left;
+}
+
+.marcador-final{
+    font-size: 260%;
+    color: rgb(208, 82, 82);
+    font-weight:bolder;
+}
+
+.detalles-data p {
+    margin: 0;
+    line-height: 2.5rem;
+}
+
+
+.resumen-titulo-0{
+    font-size: 180%;
+    margin-left: 0;
+    margin-bottom: 0;
+}
+
+.resumen-subtitulo-1{
+    color: red;
+    font-size: 1.45rem;
+    margin-top: -12%;
+    margin-bottom: -1%;
+}
+
+ul li{
+    list-style-type: none;
+}
